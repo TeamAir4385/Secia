@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Maroon" parent="@style/_Maroon"/>
+
+  <style name="_Maroon" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextMaroon</item>
+
+    <item name="android:textColorHighlight">#99660000</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewMaroon</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxMaroon</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonMaroon</item>
+
+    <item name="android:buttonStyle">@style/ButtonMaroon</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonMaroon</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerMaroon</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemMaroon</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarMaroon</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarMaroon</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarMaroon</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigMaroon</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallMaroon</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleMaroon</item>
+
+    <item name="android:listViewStyle">@style/ListViewMaroon</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewMaroon.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemMaroon</item>
+
+  </style>
+
+</resources>

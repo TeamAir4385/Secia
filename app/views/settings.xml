@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="settings" title="Settings" onOpen="doOpen">
+		<Label top="35">This is where my settings would go if I had any.</Label>
+	</Window>
+</Alloy>

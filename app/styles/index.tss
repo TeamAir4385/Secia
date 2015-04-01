@@ -1,0 +1,8 @@
+/*Not much going on here. I moved everything from index.js/tss/xml to home.
+ * Generally speaking, the app does launch index first but it points to home.
+ * You don't even notice it on load time.
+ */
+".container" : {
+  
+}
+

@@ -1,0 +1,11 @@
+"#contact": {
+	backgroundColor: "#fff"
+},
+"Label":{
+   color : "#600"
+},
+
+"TextField": {
+    font: {fontFamily: "Open Sans", fontSize: "20"},
+    borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},

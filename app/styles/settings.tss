@@ -1,0 +1,7 @@
+"#settings": {
+	backgroundColor: "#222",
+	color : "#fff"
+},
+"Label":{
+   color : "#fff"
+}

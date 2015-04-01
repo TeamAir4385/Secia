@@ -1,0 +1,51 @@
+"#home": {
+	backgroundColor: "#222222", //This will be replaced with a shiny wallpaper soon(TM).
+},
+
+"#GoTitle" : {
+	color : "#fff"
+}
+
+//global button configs. Change size here instead of in each button style. 
+//Keeps it clean and minimal
+"Button" : {
+	width: 65,
+	height: 65,
+},
+ 
+"#go" :{
+	top: '15%',
+}
+ //The comment out numbers are for the original placement I had. It created more of a 
+ //grid feel. I think the idea of having them positioned at the bottom where your 
+ //thumb naturally goes feels like a better UX choice.
+ 
+ //images located in /app/assets/images/
+"#cobButton" : {
+	top: '50%', //150
+	left: '10%',
+	backgroundImage: '/images/browser.png',
+},
+ 
+"#calendarButton" : {
+	top: '50%',  //150
+	backgroundImage: '/images/calendar.png',
+},
+ 
+"#contactButton" : {
+	top: '50%',  //150
+	right: '10%',
+	backgroundImage: '/images/contact.png',
+},
+
+"#facebookButton" : {
+	top: '75%',  //300
+	left: '25%',
+	backgroundImage: '/images/facebook.png',
+},
+ 
+"#youtubeButton" : {
+	top: '75%',  //300
+	right: '25%',
+	backgroundImage: '/images/youtube.png',
+}

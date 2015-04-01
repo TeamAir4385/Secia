@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="home" >
+	<ActionBar id="actionbar" />
+		<!-- android menu -->
+		<Menu>
+			<MenuItem 
+				onClick = "clickedSettings" 
+				title = "Settings" 
+				icon = "/images/overflow.png"
+				showAsAction = "Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+		</Menu>
+
+		<!-- rightNavButton for platforms that support them -->
+		<RightNavButton platform="ios">
+			<Button id="settingsButton" onClick="clickedSettings" 
+				systemButton="Titanium.UI.iPhone.SystemButton.COMPOSE" />
+		</RightNavButton>
+		
+		<ImageView id="go" image="/images/goteam.png" />
+		
+		<Button id="cobButton"  />
+		<Button id="calendarButton"   />
+		<Button id="contactButton" onClick="contactUs" />	
+		
+		<Button id="facebookButton" />
+		<Button id="youtubeButton"  />
+		
+	</Window>
+</Alloy>>

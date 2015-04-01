@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="contact" title="Contact Us" onOpen="doOpen" >
+		<Label top="15"center="0">Please feel free to contact us if you are interested or have any questions!</Label>
+        <TextArea id="textField1" hintText="First Name" top="65" center="0" width="75%" height="40" />	        
+        <TextArea id="textField2" hintText="Last Name" top="105" center="0" width="75%" height="40" /> 
+        <TextArea id="textField3" hintText="Emai Address" top="145" center="0" width="75%" height="40" />
+        <TextArea id="textField4" hintText="Phone Number" top="185" center="0" width="75%" height="40" />
+        
+        <Button id="submit" title="Submit"bottom="150"/>
+	</Window>
+</Alloy>

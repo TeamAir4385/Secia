@@ -1,0 +1,6 @@
+<Alloy>
+    <Require id="home" src="home" platform="android"/>
+	<NavigationWindow id="index" platform="ios">
+		<Require src="home" id="home"/>
+	</NavigationWindow>
+</Alloy>
